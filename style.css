@@ -1,0 +1,92 @@
+:root{
+    --primary-color: #47515a;
+    --secondary-color: #7e858c;
+    --main-padding-top: 100px;
+    --main-padding: 100px 30px;
+}
+
+.navbar, .navbar-links{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.logo{
+    padding-top: 20px;
+}
+
+.profile-img{
+    position: absolute;
+    right: 0;
+    padding-right: 50px;
+}
+
+.header-main{
+    display: flex;
+    padding: var(--main-padding);
+}
+
+.slogan{
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    font-weight: 500;
+    text-align: left;
+    font-size: 50px;
+}
+
+.header-links{
+    padding-left: 220px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.chat{
+    display: flex;
+}
+
+#chat-icon{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#local-icon{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.local{
+    display: flex;
+    padding-top: 20px;
+}
+
+.partnerships{
+    display: flex;
+    width: 100%;
+    padding-top: var(--main-padding-top);
+    justify-content: center;
+}
+
+.partner-logos{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.main-title{
+    padding: var(--main-padding);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
