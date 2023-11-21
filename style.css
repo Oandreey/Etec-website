@@ -2,7 +2,7 @@
     --primary-color: #47515a;
     --secondary-color: #7e858c;
     --main-padding-top: 100px;
-    --main-padding: 100px 30px;
+    --main-margin: 100px 30px;
 }
 
 .navbar, .navbar-links{
@@ -22,12 +22,19 @@
 .profile-img{
     position: absolute;
     right: 0;
-    padding-right: 50px;
+    margin-right: 50px;
+    border-radius: 50%;
+
+    transition-duration: 0.3s;
+}
+
+.profile-img:hover {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.185);
 }
 
 .header-main{
     display: flex;
-    padding: var(--main-padding);
+    margin: var(--main-margin);
 }
 
 .slogan{
@@ -72,7 +79,7 @@
     justify-content: center;
 }
 
-.partner-logos{
+.partner-logos {
     display: flex;
     align-items: center;
     list-style: none;
@@ -83,10 +90,24 @@
     border-bottom: 2px solid var(--secondary-color);
 }
 
-.main-title{
-    padding: var(--main-padding);
+
+.partner-logos .img-partner {
+    transition-duration: 0.5s;
+}
+.partner-logos .img-partner:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.main-title {
+    margin: var(--main-margin);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: var(--secondary-color);
     font-weight: 500;
 }
+.main-title:hover {
+    cursor: pointer;
+    color: black;
+}
+
